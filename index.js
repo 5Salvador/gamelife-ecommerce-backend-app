@@ -13,7 +13,7 @@ app.use(cookieParser()); // For parsing cookies
 
 // CORS setup (allowing requests from a specific origin and enabling credentials)
 app.use(cors({
-  origin: 'http://localhost:5173', // No trailing slash here
+  origin: 'https://gamelife-fronted-app.vercel.app', // No trailing slash here
   credentials: true,
   methods: ["GET", "POST", "PATCH", "PUT", "DELETE"], 
 }));
