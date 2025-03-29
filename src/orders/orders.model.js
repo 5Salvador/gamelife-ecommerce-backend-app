@@ -13,7 +13,7 @@ const OrderSchema = new mongoose.Schema(
     email: { type: String, required: true },
     status: {
       type: String,
-      enum: ["pending", "processing", "shipped", "completed",],
+      enum: ["pending", "processing", "shipped", "delivered",],
       default: "pending",
     },
   },
